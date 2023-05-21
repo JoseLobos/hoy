@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <div class="background"></div>
+    
+    <div class="panelazul">
+        <div class="panel-content">Paga a través de PayPal
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paypal" viewBox="0 0 16 16">
+              <path d="M14.06 3.713c.12-1.071-.093-1.832-.702-2.526C12.628.356 11.312 0 9.626 0H4.734a.7.7 0 0 0-.691.59L2.005 13.509a.42.42 0 0 0 .415.486h2.756l-.202 1.28a.628.628 0 0 0 .62.726H8.14c.429 0 .793-.31.862-.731l.025-.13.48-3.043.03-.164.001-.007a.351.351 0 0 1 .348-.297h.38c1.266 0 2.425-.256 3.345-.91.379-.27.712-.603.993-1.005a4.942 4.942 0 0 0 .88-2.195c.242-1.246.13-2.356-.57-3.154a2.687 2.687 0 0 0-.76-.59l-.094-.061ZM6.543 8.82a.695.695 0 0 1 .321-.079H8.3c2.82 0 5.027-1.144 5.672-4.456l.003-.016c.217.124.4.27.548.438.546.623.679 1.535.45 2.71-.272 1.397-.866 2.307-1.663 2.874-.802.57-1.842.815-3.043.815h-.38a.873.873 0 0 0-.863.734l-.03.164-.48 3.043-.024.13-.001.004a.352.352 0 0 1-.348.296H5.595a.106.106 0 0 1-.105-.123l.208-1.32.845-5.214Z"/>
+            </svg></div>
+
+            <div class="input-nombre">
+                <input type="text" name="nombres" placeholder="Nombres">
+            </div>
+            <div class="input-apellidos">
+                <input type="text" name="apellidos" placeholder="Apellidos">
+            </div>
+            <div class="input-direccion">
+                <input type="text" name="direccion" placeholder="Dirección o Nombre de usuario" style="width: 86.5%; height: 15px;margin-top: 30px; transform: translate(4.5%, -50%);"> 
+            </div>
+            <div class="input-contraseña">
+                <input type="password" name="contraseña" placeholder="Contraseña" style="width: 86.5%; height: 15px; margin-top: 30px; transform: translate(4.5%, -50%);">
+                <i class="fas fa-eye" style="position: relative; right: 25px; top: 54.5%; transform: translateY(-50%);transform: translate(100%, -50%); cursor: pointer;"></i>
+            </div>
+            
+            <div class="input-ciudad">
+                <input type="text" name="ciudad" placeholder="ciudad">
+            </div>
+            <div class="input-codigo-postal">
+                <input type="text" name="codigo-postal" placeholder="codigo-postal">
+            </div>
+            <div class="input-pais">
+                
+                <select id="pais" name="pais" style="width: 37%; height: 23px;transform: translate(11%, -50%);margin-top: 30px;">
+                    <option value="Seleccionar">pais</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="México">México</option>
+                    <option value="Perú">Perú</option>
+                    <option value="España">España</option>
+                    <option value="Estados Unidos">Estados Unidos</option>
+                    </select>
+                    
+            </div>
+         
+            <div class="input-numero-telefono">
+                <input type="text" id="plus-sign" name="plus-sign" placeholder="+" />
+                <input type="text" id="numero-telefono" name="numero-telefono" placeholder="Número de teléfono" />
+            </div>        
+    </div>
+
+
+    <div class="panelblanco">
+        <div class="resumen">Resumen</div>
+        <div class="avanzado">Avanzado</div>
+        <div class="precio">20.00 US$ único pago</div>
+        <div class="total">Total</div>
+        <div class="pago">20.00 US$</div>
+        <div class="pagoseguro"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-fill-check" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0zm2.146 5.146a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647z"/>
+          </svg> Pago seguro </div>
+          <button class="paypal">
+            <label class="labelpaypal">Continuar con PayPal</label>
+        </button>
+
+        <div class="linea-negra"></div>
+        <div class="linea-negra2"></div>
+    </div>
+    <div class="payment-method">Método de Pago</div>
+    <div class="compra">Complete su Compra</div>
+    
+  
+</body>
+</html>
