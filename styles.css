@@ -198,6 +198,7 @@ body {
     border-top: 1px solid black;
     width: 290px;
     
+    
     transform: translate(15%, -50%);
     margin-top: -35%;
 }
@@ -232,3 +233,46 @@ body {
     width: 8%;
     left: 0;
 }
+.barra {
+    display: flex;
+    align-items: center;
+  }
+
+  .value-display {
+    margin-left: 10px;
+  }
+
+  #scrollbar {
+    width: 200px; /* Puedes ajustar el ancho de la barra deslizante según tus necesidades */
+  }
+
+
+
+.panelhistorialsin {
+    width: 250px;
+    height: 400px;
+    
+    position: absolute;
+    top: 55%;
+    left: 21.50%;
+    transform: translate(-20%, -50%);
+    border-radius: 19px;
+    border: 1px solid black;;
+    cursor: pointer;
+   
+}
+.panelhistorialsin2 {
+    width: 250px;
+    height: 400px;
+    
+    position: absolute;
+    top: 55%;
+    left: 21.50%;
+    transform: translate(-20%, -50%);
+    border-radius: 19px;
+    border: 1px solid black;;
+    cursor: pointer;
+   
+}
+
+
